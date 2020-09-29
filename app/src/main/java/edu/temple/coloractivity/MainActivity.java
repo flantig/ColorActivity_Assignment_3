@@ -23,7 +23,7 @@ import java.util.ArrayList;
  * @fun onNothingSelected(): setOnItemSelectedListener requires that you implement this or it breaks similarly to how when you extend base adapter you must add and override 4 items requested even though
  * you don't actually ever use getItemID.
  *
- * @fun ((TextView) spinnerView.getSelectedView()): When the item is actually selected, we want to make sure the font is the color the background changes to. 
+ * @param ((TextView) spinnerView.getSelectedView()): When the item is actually selected, we want to make sure the font is the color the background changes to.
  */
 
 public class MainActivity extends AppCompatActivity {
