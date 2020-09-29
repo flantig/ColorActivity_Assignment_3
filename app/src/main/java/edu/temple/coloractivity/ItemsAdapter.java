@@ -58,8 +58,7 @@ public class ItemsAdapter extends BaseAdapter {
 
         TextView textView = new TextView(context);
         textView.setText(getItem(position).toString());
-        textView.setBackgroundColor(Color.parseColor("#ffffff"));
-        textView.setTextColor(Color.parseColor(getColor(position).toString()));
+        textView.setBackgroundColor(Color.parseColor(getColor(position).toString()));
         return textView;
 
     }
