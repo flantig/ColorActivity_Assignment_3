@@ -44,11 +44,23 @@ public class MainActivity extends AppCompatActivity {
         items.add("Geese Howard");
         items.add("Leona Heidern");
         items.add("Kula Diamond");
+        items.add("Billy Kane");
+        items.add("Yuri Sakazaki");
+        items.add("Ash Crimson");
+        items.add("Robert Garcia");
+        items.add("Ryo Sakazaki");
+        items.add("Athena Asamiya");
 
-        colors.add("#D2802D");
+        colors.add("#D45F00");
         colors.add("#D813EC");
         colors.add("#56A961");
         colors.add("#10E1EF");
+        colors.add("#6969FF");
+        colors.add("#FFF6EC");
+        colors.add("#FF2418");
+        colors.add("#8C7696");
+        colors.add("#FFAE00");
+        colors.add("#FF87A9");
 
         final BaseAdapter adapter = new ItemsAdapter(this, items, colors);
 
