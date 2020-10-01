@@ -26,7 +26,7 @@ import java.util.ArrayList;
  * @param ((TextView) spinnerView.getSelectedView()): When the item is actually selected, we want to make sure the font is the color the background changes to.
  */
 
-public class MainActivity extends AppCompatActivity {
+public class ColorActivity extends AppCompatActivity {
     Spinner spinnerView;
     ArrayList<String> items = new ArrayList<>();
     ArrayList<String> colors = new ArrayList<>();
