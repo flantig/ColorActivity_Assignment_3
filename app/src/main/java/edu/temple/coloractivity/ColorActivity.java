@@ -18,7 +18,7 @@ import android.widget.TextView;
 import java.util.ArrayList;
 
 /**
- * @fun onItemSelected(): Changes the background of the view upon selecting an item from the spinner. See comments on ItemsAdapter to see how the custom adapter accepts colors.
+ * @fun onItemSelected(): Changes the background of the view upon selecting an item from the spinner. See comments on ColorAdapter to see how the custom adapter accepts colors.
  *
  * @fun onNothingSelected(): setOnItemSelectedListener requires that you implement this or it breaks similarly to how when you extend base adapter you must add and override 4 items requested even though
  * you don't actually ever use getItemID.
@@ -62,7 +62,7 @@ public class ColorActivity extends AppCompatActivity {
         colors.add("#FFAE00");
         colors.add("#FF87A9");
 
-        final BaseAdapter adapter = new ItemsAdapter(this, items, colors);
+        final BaseAdapter adapter = new ColorAdapter(this, items, colors);
 
         spinnerView.setAdapter(adapter);
 

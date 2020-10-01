@@ -21,13 +21,13 @@ import java.util.ArrayList;
  *
  */
 
-public class ItemsAdapter extends BaseAdapter {
+public class ColorAdapter extends BaseAdapter {
 
     Context context;
     ArrayList<String> items;
     ArrayList<String> colors;
 
-    public ItemsAdapter(Context context, ArrayList<String> items, ArrayList<String> colors) {
+    public ColorAdapter(Context context, ArrayList<String> items, ArrayList<String> colors) {
         this.context = context;
         this.items = items;
         this.colors = colors;
