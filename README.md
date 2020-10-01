@@ -13,9 +13,9 @@ things like onClickListener instead of onItemSelected.
 
 **@param ((TextView) spinnerView.getSelectedView()):** When the item is actually selected, we want to make sure the font is the color the background changes to. 
 
-## Docstring - ItemsAdapter
+## Docstring - ColorAdapter
 
-**@fun ItemsAdapter():** It takes in three things
+**@fun ColorAdapter():** It takes in three things
 
 1. context - Context represents (provides a handle to) the application environment. Can be obtained from several sources, but capabilities vary.
 2. colors - Is what will be used to determine the color of the layout in the MainClass and also the font color of the item inside of the TextView         
